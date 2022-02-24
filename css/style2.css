@@ -53,11 +53,14 @@ body {
     box-shadow: 0 0 20px white;
     line-height: 25px;
 }
-.top-right a {
+.top-right a{
     font-size: 15px;
     text-decoration: none;
     color: white;
     margin: 5px;
+}
+.top-right >a:hover{
+    color: rgb(0, 0, 0);
 }
 .language{
     display: inline-block;
